@@ -1,1 +1,13 @@
-
+{
+  "type": "service_account",
+  "project_id": "bot-carteira",
+  "private_key_id": "356f24346d20b993e9a92da67d10be98de3ea6cf",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwmnQKqgIqo0nj\nSi6PJb7ijsR7lk8lAJ4c7T6Dnx6BkZxxJHXKvCNFucjWQlyttgdxBUIB+k4Y3l7W\nXS2icyvfGPRKRmxZuWPhS74/JbMCCpmEPJdI0g3b5sfeGIV49VNFdCcDz0ruso8Q\nWY1fA2sxofyvjjf65Cr8fM4GQ2uu71xcBi/AA1H62xTV4U2rL8m1qE4sSOTqvE2C\nmjapZCeOWNUZ07x+V8kc8G1JzRw5HGht074wWFPMQUip2W8J1XNzEnebOiVRfUuD\nXbGy0+d1EAalG23OcmoSWcjBpG6RKksmALGJyAO0MwofG7xPWMFaTTLB4bypRqDJ\nIim6RPH3AgMBAAECggEAOL1nCwYULB7KXnw2+UbnTWMRPaPNSdYo9qJCs4csBfUC\njldogPpxWrWWEUDBBg611VobGweQj+ziC31kbA0Uy1j5I+P8a9dkf74WIbO7D6zY\nJeRRttPGICDFllXKjFJFrsrivhabvJUh4d7jzOMMTaX9yWmoErO8G+L9ToXa0xkL\nn04phSnVfM7Pg744IpzxWaPKVIOdcjMMf8AL5fv/E+MTW24Ud8FeF0paeNGJCTJF\niBStMhqNJWwpVdzlvKU5Lerk74vshaQvY2djVEyNEB5dahdzUnfeEVYgGzBAc8A/\nB6ycvmzD0B49lCYDBiWXxY1/sApMKKS9OvtyUfvwAQKBgQDbwDa8ynqvkA2OuAJS\nSxSeP0Tt32uIif7bJvr/LBNazz5+Pv2ejsRcoyP1y8yDXHW6NsJkRj0eVaeztMlF\nrJ18CNzQeZc+Zdvs1ZaaNxH+HoMcbZKRZcnRe4x5hpMxBoITiv2KWBYolrpqPJF8\nKUnjcJA+ZBnuLlKRIP5l8OKEoQKBgQDNvC1+ZVjYalyMHbQ8VoMxzUe0bidz2F6I\nTj3Piatjgf6gy0GxUVpbDrSErn0Ss3fQhVa73+WHKm0MwzAeKPOdsunySYEaD/+n\nurqPXZtg0b4pJDeUUAMLo2U4ENmoe91KLxoNxWvMXms65ThER80kMm2F52KyoHyM\njDdx69ZXlwKBgQCSj06yeSR8BMpV/jlmIzb8F9xj/ZddeBOmnAfYuc+qx/+4+U/z\nOOqTkibAnwymK7tE15Ksh//pRF1VyGRYeLiL6elDjWSmtA6KlSUdc08nubfd9OJE\n4KtKcGkPAAcZMmr8l71jUD5vEaAAjKbHNU5XR1KcmeyFYxWkP2oMGS0qIQKBgEIh\nfNYmKZrXBYycd7T1chJuE+BxkAjyweA6li/B5u+Dd5+j9ifTKKIgZfJITDfYrGjA\nk5Ksc5ExGACENVFchIJqYjzZV8BS6DC4GwO+aRWEFgYPeDYaSgBRs1WERRKdThJs\ndYl7rhzxNLKnv6BjHBPIieAC8nzMjXx4DdJ2pl1dAoGBAMdKrtiHyH9nZXjJXxpu\n3h7MaLYZeF0fPy/rdxNGFxBiwdRoiq0EE/D0JmPcuHu9cR8BsV7vGgR61hRkdmJK\nzIIqp2h1mXG74f9emJ+b5dhIVIX0CZyowG0N+oXiasjg/uCKMv3LeiQIo+QrzBO0\nF3xW/MpYBAvlDfP0kuTznhRw\n-----END PRIVATE KEY-----\n",
+  "client_email": "bot-carteira-2@bot-carteira.iam.gserviceaccount.com",
+  "client_id": "102872875477693715316",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bot-carteira-2%40bot-carteira.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
