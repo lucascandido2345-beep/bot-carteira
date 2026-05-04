@@ -258,6 +258,7 @@ async def autocomplete_nome(interaction: discord.Interaction, current: str):
     ][:25]
 
 import os
+import traceback
 
 @bot.event
 async def on_ready():
@@ -266,14 +267,17 @@ async def on_ready():
 
 print("INICIANDO BOT...")
 
-token = os.getenv("DISCORD_TOKEN")
+try:
+    token = os.getenv("DISCORD_TOKEN")
 
-if not token:
-    print("❌ ERRO: TOKEN NÃO ENCONTRADO")
-else:
+    if not token:
+        print("❌ TOKEN NÃO ENCONTRADO")
+        raise Exception("Token não definido")
+
     print("✅ TOKEN OK")
 
-try:
     bot.run(token)
+
 except Exception as e:
-    print(f"❌ ERRO AO INICIAR BOT: {e}")
+    print("❌ ERRO DETALHADO:")
+    traceback.print_exc()
