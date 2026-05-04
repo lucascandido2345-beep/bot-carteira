@@ -257,9 +257,23 @@ async def autocomplete_nome(interaction: discord.Interaction, current: str):
         for _, n in dados if current.lower() in n.lower()
     ][:25]
 
+import os
+
 @bot.event
 async def on_ready():
     await tree.sync()
     print("Bot online!")
 
-bot.run(TOKEN)
+print("INICIANDO BOT...")
+
+token = os.getenv("DISCORD_TOKEN")
+
+if not token:
+    print("❌ ERRO: TOKEN NÃO ENCONTRADO")
+else:
+    print("✅ TOKEN OK")
+
+try:
+    bot.run(token)
+except Exception as e:
+    print(f"❌ ERRO AO INICIAR BOT: {e}")
