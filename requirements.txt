@@ -1,0 +1,9 @@
+discord.py
+Pillow
+requests
+gspread
+oauth2clientdiscord.py
+Pillow
+requests
+gspread
+oauth2client
